@@ -1,0 +1,52 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6.4em;
+  padding: 1em;
+  will-change: filter;
+  transition: filter 300ms;
+  
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #252dbbaa);
+}
+
+.app-h{
+  background-color: rgba($color: #16c79b, $alpha: 0.7);
+}
+.colo{
+  color: white;
+}
+
+.dat{
+  max-width: 80px;
+  padding: 5px;
+  background-color: #b598d7;
+}
+.age{
+  background-color: rgb(199, 109, 234);
+}
+.planets{
+  background-color: rgba($color: #f9f6f6ef, $alpha: 0.7);
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+.planet{
+  flex-basis: 49%;
+}
+.ima{
+  height: 130px;
+  padding-right:20px;
+  filter: drop-shadow(10px 30px 20px black);
+}
+p{
+  font-size: larger;
+}
